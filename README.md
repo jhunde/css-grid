@@ -1,7 +1,7 @@
 # CSS Grid
 
 ## 🔍 Research & Learning 
-![img](css-box-model.png)
+![img](/img/css-box-model.png)
 
 ### What is `1rem`?
 + Most browsers set the root font size to `16px` (by default) so `1rem == 16px`

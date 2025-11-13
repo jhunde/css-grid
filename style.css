@@ -1,11 +1,23 @@
 .grid-container{
+    /* height: 800px; */
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 200px 200px 200px;
+    /* grid-template-columns: 200px 200px 200px; */
+    /*grid-template-rows: 200px 200px 200px;          /* relative to the grid */
+
+    /* grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; */
+
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
     gap: 1em;
+
+    justify-items: center;                   /*handles horiaontal alignments*/
+    align-items: center;                      /* handles virtical alignments */
 }
 
 .items{
+    height: 100px;
+    width: 100px;
     padding: 2em;
     background-color: rgb(77, 77, 252);
     color: white;

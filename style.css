@@ -1,5 +1,6 @@
 .grid-container{
     /* height: 800px; */
+    height: 100vh;
     display: grid;
     /* grid-template-columns: 200px 200px 200px; */
     /*grid-template-rows: 200px 200px 200px;          /* relative to the grid */
@@ -11,8 +12,11 @@
     grid-template-rows: 300px 300px 300px;
     gap: 1em;
 
-    justify-items: center;                   /*handles horiaontal alignments*/
-    align-items: center;                      /* handles virtical alignments */
+    justify-items: center;                   /* handles horizontal alignments*/
+    align-items: center;                     /* handles vertical alignments */
+
+    justify-content: center;            /*handles the alignment of the columns*/
+    align-content: center;              /*handles the alignment of the rows*/
 }
 
 .items{

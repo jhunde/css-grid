@@ -20,3 +20,26 @@
 ```
 > If you want, you can manually adjust the height of `grid-container`
 
+### Justify & Align **Items**
+> **Note:** This aligns `.items` within the cell (`gird`). 
+Align `.items`**horizontally**  
+```css
+justify-items: center;
+```
+Align `.items` **vertically**
+```css
+    align-items: center;
+```
+
+### Justify & Align **Conents**
+> **Note:** This alignment affects the whole `.grid` and its' effects can be seen based on the `height` of the **`.grid-container`**. 
+
+Aligns the `grid` **horizontally** 
+```css
+justify-content: center; 
+```
+
+Aligns the `grid` **vertically**
+```css
+    align-content: center;
+```

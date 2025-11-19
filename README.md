@@ -22,10 +22,12 @@
 
 ### Justify & Align **Items**
 > **Note:** This aligns `.items` within the cell (`gird`). 
-Align `.items`**horizontally**  
+
+Align `.items` **horizontally**  
 ```css
-justify-items: center;
+    justify-items: center;
 ```
+
 Align `.items` **vertically**
 ```css
     align-items: center;
@@ -36,10 +38,17 @@ Align `.items` **vertically**
 
 Aligns the `grid` **horizontally** 
 ```css
-justify-content: center; 
+    justify-content: center; 
 ```
 
 Aligns the `grid` **vertically**
 ```css
     align-content: center;
 ```
+
+### `grid-auto-rows`
+**Note:** If `grid-auto-rows` is in use there is no need to use `grid-template-rows` since it maintains consistant **rows** size of each Items. 
+```css
+    grid-auto-rows: 300px;
+```
+
